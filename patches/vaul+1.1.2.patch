@@ -1,23 +1,23 @@
-diff --git a/node_modules/vaul/dist/index.js b/node_modules/vaul/dist/index.js
+diff --git a/dist/index.js b/dist/index.js
 index 7f343be..55ca90e 100644
---- a/node_modules/vaul/dist/index.js
-+++ b/node_modules/vaul/dist/index.js
+--- a/dist/index.js
++++ b/dist/index.js
 @@ -457,7 +457,7 @@ function assignStyle(element, style) {
  }
- 
+
  const TRANSITIONS = {
 -    DURATION: 0.5,
 +    DURATION: 0.15,
      EASE: [
          0.32,
          0.72,
-diff --git a/node_modules/vaul/dist/index.mjs b/node_modules/vaul/dist/index.mjs
+diff --git a/dist/index.mjs b/dist/index.mjs
 index 0dbbce5..553cdd1 100644
---- a/node_modules/vaul/dist/index.mjs
-+++ b/node_modules/vaul/dist/index.mjs
+--- a/dist/index.mjs
++++ b/dist/index.mjs
 @@ -435,7 +435,7 @@ function assignStyle(element, style) {
  }
- 
+
  const TRANSITIONS = {
 -    DURATION: 0.5,
 +    DURATION: 0.15,

@@ -5,8 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "patch-package"
+    "start": "next start"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "vaul@1.1.2": "patches/vaul+1.1.2.patch"
+    }
   },
   "dependencies": {
     "@base-ui/react": "^1.4.0",
